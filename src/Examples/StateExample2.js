@@ -10,7 +10,7 @@ function StateExample2() {
 
         setTimeout(() => {
             setUsername('Tolga');
-            setLoading(false);
+            setLoading (false);
         }, 1000);
     }
 

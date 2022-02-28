@@ -1,7 +1,10 @@
 import React from 'react'
 import JsxEventExample from '../Examples/JsxEventExample';
+import StateArraySample from '../Examples/StateArraySample';
+import StateErrorSample from '../Examples/StateErrorSample';
 import StateExample from '../Examples/StateExample';
 import StateExample2 from '../Examples/StateExample2';
+import StateInputArraySample from '../Examples/StateInputArraySample';
 import ProductDetail from './ProductDetail'
 import ProductHeader from './ProductHeader'
 
@@ -22,8 +25,11 @@ function Product() {
 
     <>
      
-        <StateExample></StateExample>
+        {/* <StateExample></StateExample>
         <StateExample2></StateExample2>
+        <StateArraySample></StateArraySample> */}
+        {/* <StateInputArraySample></StateInputArraySample> */}
+        <StateErrorSample></StateErrorSample>
     </>
   )
 }
